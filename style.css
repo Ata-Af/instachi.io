@@ -1,0 +1,152 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: url("Backgrounds/Background.jpeg") center no-repeat fixed;
+	background-size: cover;
+
+}
+
+@font-face {
+	font-family: Firstone;
+	src: url(Fonts/Aviny.ttf);
+}
+
+.btn1 {
+	border-color: white;
+	color: white
+
+}
+
+.btn1:hover {
+	border-color: #d63384;
+	background-color: #d63384;
+}
+
+
+.txt1 {
+	color: white;
+	font-size: 20px;
+}
+
+.foot {
+	width: 20px;
+
+}
+
+.aligning {
+
+	text-align: center;
+	font-family: Firstone;
+	font-size: 25px;
+}
+
+.textsAmoung {
+	font-family: Firstone;
+	font-size: 40px;
+	color: white;
+	text-align: right;
+}
+
+.hrr {
+	align-self: center;
+	border-bottom: 5px solid white;
+	border-radius: 100px;
+}
+
+#buffer {
+
+	height: 40px;
+}
+
+#bufferr {
+
+	height: 40px;
+}
+
+#FooterBuffer {
+	height: 300px;
+}
+
+.marginr {
+
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.price {
+	font-family: Firstone;
+	font-size: 20px;
+	text-align: center;
+}
+span {
+	font-size: 2em;
+}
+.contentt {
+	font-family: Firstone;
+	font-size: 20px;
+	text-align: right;
+	direction: rtl;
+}
+
+.borr {
+	border-radius: 20px 20px 0px 0px;
+}
+
+
+#aligningg {
+	align-items: center;
+
+}
+
+.parent {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.img-back {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.img-front {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.flexBox {
+	position: absolute;
+	left: 50px;
+	right: 50px;
+	bottom: 80px ;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.coll {
+	max-width: 100px;
+	padding-right: 20px;
+}
+
+.footerContent {
+	font-family: Firstone;
+	font-size: 25px;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+
+.socialLogo {
+	margin-right: 30px;
+}
+
+
